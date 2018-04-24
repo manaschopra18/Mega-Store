@@ -1,0 +1,100 @@
+.button {background:    #3d85c6;
+background:    -webkit-linear-gradient(#3d85c6, #073763);
+background:    linear-gradient(#3d85c6, #073763);
+border-radius: 10px;
+width:         100px;
+height:        25px;
+color:         #f3f3f3;
+display:       inline-block;
+font:          italic "Open Sans", sans-serif;
+text-align:    center;
+text-shadow:   1px 1px #000000;
+
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button1 {background:    #3d85c6;
+background:    -webkit-linear-gradient(#3d85c6, #073763);
+background:    linear-gradient(#3d85c6, #073763);
+border-radius: 10px;
+width:         120px;
+height:        35px;
+color:         #f3f3f3;
+ font-size: 15px;
+display:       inline-block;
+font:          italic "Open Sans", sans-serif;
+text-align:    center;
+text-shadow:   1px 1px #000000;
+
+}
+
+.button1:hover {background-color: #3e8e41}
+
+.button1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.message{
+max-height:inherit;
+}
+
+.button2 {
+   background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #263a47);
+  background-image: -moz-linear-gradient(top, #3498db, #263a47);
+  background-image: -ms-linear-gradient(top, #3498db, #263a47);
+  background-image: -o-linear-gradient(top, #3498db, #263a47);
+  background-image: linear-gradient(to bottom, #3498db, #263a47);
+  -webkit-border-radius: 26;
+  -moz-border-radius: 26;
+  border-radius: 26px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 5px 13px 5px 13px;
+  text-decoration: none;
+}
+
+.button2:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  
+}
+
+.button2:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.container{
+width:100%;
+padding-right:15px;
+padding-left:50px;
+margin-right:auto;
+margin-left:auto;
+border-radius:10px;
+border:2px solid   ;  
+background-image:url("images/layer.jpg");
+background-size:cover; 
+padding-top:10px;
+padding-bottom:10px;
+
+}
+
+@media (min-width:1200px){.container{max-width:1140px}}
+
+
